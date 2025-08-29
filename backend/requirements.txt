@@ -24,7 +24,7 @@ pytesseract==0.3.10
 opencv-python==4.8.1.78
 # Data processing
 pandas==2.2.3
-numpy==1.25.2
+numpy==2.1.0
 # HTTP requests
 httpx==0.25.2
 requests==2.31.0
