@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from typing import List, Dict, Any
 from datetime import datetime, timedelta
 
-router = APIRouter(prefix="/analytics", tags=["analytics"])
+router = APIRouter()
 
 # Pydantic models
 class UsageStats(BaseModel):
