@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from typing import List, Optional
 from datetime import datetime
 
-router = APIRouter(prefix="/receipts", tags=["receipts"])
+router = APIRouter()
 
 # Pydantic models
 class ReceiptItem(BaseModel):
